@@ -5,21 +5,21 @@ import project3 from '../../assets/images/pro9.png'
 
 const Project = () => {
     return (
-        <div className='my-10'>
+        <div id='project' className='my-10'>
             <h2 className='text-center text-5xl font-semibold mb-5 underline'>My Project</h2>
-            <div className='grid grid-cols-2 gap-5'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-5'>
                 <div className="card bg-base-100 shadow-xl">
                     <figure><img src={project1} alt="Shoes" /></figure>
 
-                    <div className="card-body px-12 mt-[-20px]">
+                    <div className="card-body md:px-12 mt-[-20px]">
                         <div className="divider my-[-8px]"></div>
                         <div className='flex gap-2'>
                             <h2 className='font-semibold'>Project Name:</h2>
                             <p>Art & Craft School</p>
                         </div>
-                        <div className='flex gap-2 mt-[-10px]'>
-                            <a href="https://assignment-twelve-dfcd6.web.app/" className='font-semibold underline'>Live Link</a>
-                            <a href="https://github.com/MohammadShahansha/artSchool-client" className='font-semibold underline'>Coad Link(Client)</a>
+                        <div className='md:flex gap-1 mt-[-10px]'>
+                            <a href="https://assignment-twelve-dfcd6.web.app/" className='font-semibold underline'>Live Link</a><br />
+                            <a href="https://github.com/MohammadShahansha/artSchool-client" className='font-semibold underline'>Coad Link(Client)</a><br />
                             <a href="https://github.com/MohammadShahansha/artSchool-server" className='font-semibold underline'>Coad Link(Server)</a>
                         </div>
                         <div className="divider my-[-8px]"></div>
@@ -35,14 +35,14 @@ const Project = () => {
                 <div className="card bg-base-100 shadow-xl">
                     <figure><img src={project3} alt="jobFeild" /></figure>
 
-                    <div className="card-body px-12 mt-[-20px]">
+                    <div className="card-body md:px-12 mt-[-20px]">
                         <div className="divider my-[-8px]"></div>
                         <div className='flex gap-2'>
                             <h2 className='font-semibold'>Project Name:</h2>
                             <p>Job Feild</p>
                         </div>
-                        <div className='flex gap-2 mt-[-10px]'>
-                            <a href="https://melodious-dango-dbddcc.netlify.app/" className='font-semibold underline'>Live Link</a>
+                        <div className='md:flex gap-1 mt-[-10px]'>
+                            <a href="https://melodious-dango-dbddcc.netlify.app/" className='font-semibold underline'>Live Link</a><br />
                             <a href="https://github.com/MohammadShahansha/jobFeild" className='font-semibold underline'>Coad Link</a>
 
                         </div>
@@ -58,25 +58,25 @@ const Project = () => {
                 </div>
                 <div className="card bg-base-100 shadow-xl">
                     <figure><img src={project2} alt="Project" /></figure>
-                    <div className="card-body px-12 mt-[-20px]">
+                    <div className="card-body md:px-12 mt-[-20px]">
                         <div className="divider my-[-8px]"></div>
                         <div className='flex gap-2'>
                             <h2 className='font-semibold'>Project Name:</h2>
                             <p>TestOfFood</p>
                         </div>
-                        <div className='flex gap-2 mt-[-10px]'>
-                            <a href=" https://for-assignment-ten.web.app" className='font-semibold underline'>Live Link</a>
-                            <a href="https://github.com/MohammadShahansha/foodRec" className='font-semibold underline'>Coad Link(Client)</a>
+                        <div className='md:flex gap-1 mt-[-10px]'>
+                            <a href=" https://for-assignment-ten.web.app" className='font-semibold underline'>Live Link</a><br />
+                            <a href="https://github.com/MohammadShahansha/foodRec" className='font-semibold underline'>Coad Link(Client)</a><br />
                             <a href="https://github.com/MohammadShahansha/foodRec-server" className='font-semibold underline'>Coad Link(Server)</a>
 
                         </div>
                         <div className="divider my-[-8px]"></div>
                         <p>
-                            This is TestOfFood project. It is about some Populer Chef and Recipe. In Home section first has a benner section.And then given a chef Information section.
+                            This is TestOfFood project. It is about some Populer Chef and Recipe. In Home section first has a benner section.And then given a chef Information section.Then given Two populer section and a resonable footer. In 'Chef Information' section each chef has a 'VIEWRECIPE' button. If we click this button we can see three recipe with discription which made by a chef. To see recipe a user must be need to login first.
                         </p>
                         <div className="divider my-[-8px]"></div>
                         <p>In this project I use <span className='font-semibold'>
-                            React Router Dom, javaScript, React icon and more.
+                            React Router Dom, javaScript, React icon, Firebase, vercel and more.
                         </span></p>
                     </div>
                 </div>

@@ -15,10 +15,10 @@ import git from '../../assets/images/github.png'
 
 const Skills = () => {
     return (
-        <div className='my-10'>
+        <div id='skill' className='my-10'>
             <h2 className='text-5xl text-center font-semibold underline mb-4'>Skills</h2>
             <div>
-                <div className='grid grid-cols-3 items-center gap-3'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-3 items-center gap-3 px-2'>
                     <div className="card card-side bg-black shadow-xl py-4 px-8">
                         <figure><img src={html} alt="HTML" className='h-28 w-28'/></figure>
                         <div className="card-body">

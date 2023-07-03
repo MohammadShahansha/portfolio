@@ -8,7 +8,7 @@ import Project from '../Project/Project';
 
 const Home = () => {
     return (
-        <div className='mx-28'>
+        <div id='/' className='md:mx-28'>
             <NavBar></NavBar>
             <BannerSection></BannerSection>
             <About></About>
