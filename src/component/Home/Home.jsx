@@ -5,10 +5,10 @@ import Skills from '../Skills/Skills';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Project from '../Project/Project';
-
+import './Home.css';
 const Home = () => {
     return (
-        <div id='/' className='md:mx-28'>
+        <div id='/' className='md:mx-28 bac'>
             <NavBar></NavBar>
             <BannerSection></BannerSection>
             <About></About>

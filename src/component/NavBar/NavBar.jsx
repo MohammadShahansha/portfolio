@@ -20,7 +20,7 @@ const NavBar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">My Portfolio</a>
+                <a className="text-2xl font-semibold">My Portfolio</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
