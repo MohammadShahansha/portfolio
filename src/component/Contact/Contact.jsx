@@ -25,7 +25,7 @@ const Contact = () => {
         <div id='contact' className='mt-20 px-2 pb-10'>
             <h2 className='text-5xl font-semibold text-center text-white underline mb-3'>Contact Me</h2>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-10'>
-                <form name="contact" ref={form} onSubmit={sendEmail} className='' netlify>
+                <form name="contact" ref={form} onSubmit={sendEmail} className='' method="POST" data-netlify="true">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-gray-300 font-md text-lg">Your Name:</span>
