@@ -12,7 +12,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_ljwtoak', 'template_7bv7yfp', form.current, 'Zzk-PPbjeY6j2WdvR')
+        emailjs.sendForm('service_ljwtoak', 'template_z48ygop', form.current, 'Zzk-PPbjeY6j2WdvR')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -25,7 +25,7 @@ const Contact = () => {
         <div id='contact' className='mt-20 px-2 pb-10'>
             <h2 className='text-5xl font-semibold text-center text-white underline mb-3'>Contact Me</h2>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-10'>
-                <form ref={form} onSubmit={sendEmail} className=''>
+                <form name="contact" ref={form} onSubmit={sendEmail} className='' netlify>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-gray-300 font-md text-lg">Your Name:</span>
